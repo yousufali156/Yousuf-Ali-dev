@@ -1,27 +1,48 @@
 import React from 'react';
 
-const Loader = () => {
-    return (
-        <div className='flex justify-center pt-6'>
-            <button type="button"
-                className="px-5 py-2.5 flex items-center justify-center green text-sm tracking-wider font-medium border-none outline-none">
-                <svg width="40px" fill="#4CAF50" className="mr-2 inline animate-spin"
-                    viewBox="0 0 26.349 26.35">
-                    <circle cx="13.792" cy="3.082" r="3.082" data-original="#000000" />
-                    <circle cx="13.792" cy="24.501" r="1.849" data-original="#000000" />
-                    <circle cx="6.219" cy="6.218" r="2.774" data-original="#000000" />
-                    <circle cx="21.365" cy="21.363" r="1.541" data-original="#000000" />
-                    <circle cx="3.082" cy="13.792" r="2.465" data-original="#000000" />
-                    <circle cx="24.501" cy="13.791" r="1.232" data-original="#000000" />
-                    <path
-                        d="M4.694 19.84a2.155 2.155 0 0 0 0 3.05 2.155 2.155 0 0 0 3.05 0 2.155 2.155 0 0 0 0-3.05 2.146 2.146 0 0 0-3.05 0z"
-                        data-original="#000000" />
-                    <circle cx="21.364" cy="6.218" r=".924" data-original="#000000" />
-                </svg>
+const Loader = ({ message = "Loading..." }) => {
+  return (
+    <div className="fixed inset-0 bg-black/60 flex flex-col items-center justify-center z-50">
+      
+      {/* Spinner Circles */}
+      <div className="flex space-x-2 mb-4">
+        <div className="w-4 h-4 bg-green-500 rounded-full animate-bounce"></div>
+        <div className="w-4 h-4 bg-blue-500 rounded-full animate-bounce animation-delay-200"></div>
+        <div className="w-4 h-4 bg-pink-500 rounded-full animate-bounce animation-delay-400"></div>
+      </div>
 
-            </button>
-        </div>
-    );
+      {/* Message */}
+      <span className="text-white text-lg font-medium">{message}</span>
+
+      {/* Optional Animated SVG (classic) */}
+      <svg
+        width="50px"
+        height="50px"
+        className="mt-4 animate-spin"
+        viewBox="0 0 50 50"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <circle cx="25" cy="25" r="20" stroke="#4CAF50" strokeWidth="5" strokeLinecap="round" />
+      </svg>
+
+      <style>{`
+        @keyframes bounce {
+          0%, 80%, 100% { transform: scale(0); }
+          40% { transform: scale(1); }
+        }
+        .animate-bounce {
+          animation: bounce 1.4s infinite ease-in-out both;
+        }
+        .animation-delay-200 {
+          animation-delay: 0.2s;
+        }
+        .animation-delay-400 {
+          animation-delay: 0.4s;
+        }
+      `}</style>
+    </div>
+  );
 };
 
 export default Loader;

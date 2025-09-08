@@ -1,25 +1,34 @@
-import React, { use, useEffect, useState } from "react";
+import React, { use, useState, useEffect, } from "react";
 import Repository from "../repository/Repository";
 import { Typewriter } from "react-simple-typewriter";
 import CountUp from "react-countup";
 
 const Repositories = ({ repositoriesPromise }) => {
-  const repositoriesData = use(repositoriesPromise);
-  const [repositories, setRepositories] = useState([]);
-  const [showAll, setShowAll] = useState(false);
+  const repositoriesData = use(repositoriesPromise) || [];
+  const itemsPerPage = 8; // 2x4 grid
+  const [currentPage, setCurrentPage] = useState(1);
+  const [currentRepos, setCurrentRepos] = useState([]);
+
+  const totalPages = Math.ceil(repositoriesData.length / itemsPerPage);
 
   useEffect(() => {
-    if (showAll) setRepositories(repositoriesData);
-    else setRepositories(repositoriesData.slice(0, 16));
-  }, [showAll, repositoriesData]);
+    const start = (currentPage - 1) * itemsPerPage;
+    const end = start + itemsPerPage;
+    setCurrentRepos(repositoriesData.slice(start, end));
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [currentPage, repositoriesData]);
+
+  const handlePrev = () => setCurrentPage((prev) => Math.max(prev - 1, 1));
+  const handleNext = () => setCurrentPage((prev) => Math.min(prev + 1, totalPages));
 
   return (
-    <section className="bg-black text-white py-16 px-4 md:px-12 relative overflow-hidden">
-      {/* Subtle floating shapes */}
+    <section className="bg-black text-white py-16 px-4 relative overflow-hidden">
+      {/* Floating shapes */}
       <div className="absolute -top-16 -left-20 w-72 h-72 bg-purple-700/20 rounded-full animate-spin-slow"></div>
       <div className="absolute -bottom-16 -right-20 w-72 h-72 bg-pink-600/20 rounded-full animate-spin-slow"></div>
 
-      <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-12">
+      {/* Section Title */}
+      <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-12 max-w-5xl mx-auto">
         <Typewriter
           words={["Total Repositories", "My Projects", "Latest Work"]}
           loop={0}
@@ -30,37 +39,61 @@ const Repositories = ({ repositoriesPromise }) => {
           delaySpeed={2000}
         />{" "}
         <span className="text-pink-500">
-          <CountUp
-            start={0}
-            end={repositoriesData.length}
-            enableScrollSpy
-            duration={3}
-          />
+          <CountUp start={0} end={repositoriesData.length} enableScrollSpy duration={3} />
           +
         </span>
       </h2>
 
-      {/* Projects Grid */}
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-        {repositories.map((repository, i) => (
-          <Repository key={i} repository={repository} />
-        ))}
+      {/* Projects Grid 2 columns */}
+      <div className="max-w-5xl mx-auto grid gap-8 grid-cols-1 sm:grid-cols-2 justify-items-center">
+        {currentRepos.map((repository, i) =>
+          repository ? <Repository key={i} repository={repository} /> : null
+        )}
       </div>
 
-      {/* Show All / Show Less */}
-      <div className="flex justify-center mt-12">
+      {/* Pagination */}
+      <div className="flex justify-center items-center gap-3 mt-12 flex-wrap">
         <button
-          onClick={() => {
-            setShowAll(!showAll);
-            showAll && window.scrollTo(0, 0);
-          }}
-          className="px-8 py-3 font-semibold rounded-full bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 shadow-lg hover:scale-105 transform transition duration-300 text-white"
+          onClick={handlePrev}
+          disabled={currentPage === 1}
+          className={`px-5 py-2 rounded-full font-semibold transition-all duration-300 ${
+            currentPage === 1
+              ? "bg-gray-700 text-gray-400 cursor-not-allowed"
+              : "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white hover:scale-105 shadow-lg"
+          }`}
         >
-          {showAll ? "Show Less" : "Show All"}
+          Prev
+        </button>
+
+        {Array.from({ length: totalPages }, (_, i) => i + 1).map((page) => (
+          <button
+            key={page}
+            onClick={() => setCurrentPage(page)}
+            className={`px-5 py-2 rounded-full font-semibold transition-all duration-300
+              ${
+                currentPage === page
+                  ? "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white shadow-lg scale-110"
+                  : "bg-gray-800 text-gray-300 hover:bg-gradient-to-r hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 hover:text-white"
+              }`}
+          >
+            {page}
+          </button>
+        ))}
+
+        <button
+          onClick={handleNext}
+          disabled={currentPage === totalPages}
+          className={`px-5 py-2 rounded-full font-semibold transition-all duration-300 ${
+            currentPage === totalPages
+              ? "bg-gray-700 text-gray-400 cursor-not-allowed"
+              : "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white hover:scale-105 shadow-lg"
+          }`}
+        >
+          Next
         </button>
       </div>
 
-      {/* Gradient spin animation */}
+      {/* Spin animation */}
       <style>{`
         @keyframes spin-slow {
           from { transform: rotate(0deg); }

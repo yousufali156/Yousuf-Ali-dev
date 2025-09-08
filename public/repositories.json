@@ -1,0 +1,346 @@
+[
+  {
+    "id": 1,
+    "name": "yousufali-portfolio",
+    "repo": "https://github.com/yousufali156/yousufali-portfolio",
+    "live": "https://yousufali-portfolio.vercel.app",
+    "language": "JavaScript",
+    "description": "A modern and fully responsive personal portfolio showcasing skills, experience, and projects. Built using React, Tailwind CSS, and Framer Motion."
+  },
+  {
+    "id": 2,
+    "name": "Live-Weather-App",
+    "repo": "https://github.com/yousufali156/Live-Weather-App",
+    "live": "https://live-weather-lw.vercel.app/",
+    "language": "JavaScript",
+    "description": "A real-time weather dashboard built with React and Tailwind CSS, featuring animated weather icons and dynamic API data."
+  },
+  {
+    "id": 3,
+    "name": "portfolio",
+    "repo": "https://github.com/yousufali156/portfolio",
+    "live": "",
+    "language": "HTML",
+    "description": "Static portfolio website built with HTML and CSS."
+  },
+  {
+    "id": 4,
+    "name": "earthen-canvas",
+    "repo": "https://github.com/yousufali156/earthen-canvas",
+    "live": "https://earthen-canvas-ec.vercel.app/",
+    "language": "JavaScript",
+    "description": "Earthen Canvas is a product management app built with Next.js 15 and NextAuth.js."
+  },
+  {
+    "id": 5,
+    "name": "yousufali156",
+    "repo": "https://github.com/yousufali156/yousufali156",
+    "live": "",
+    "language": "Config",
+    "description": "Config files for my GitHub profile."
+  },
+  {
+    "id": 6,
+    "name": "yuzan-fast-delivery-client",
+    "repo": "https://github.com/yousufali156/yuzan-fast-delivery-client",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Frontend client for Yuzan Fast Delivery service."
+  },
+  {
+    "id": 7,
+    "name": "DevTalks",
+    "repo": "https://github.com/yousufali156/DevTalks",
+    "live": "https://devtalks-asg12.web.app/",
+    "language": "JavaScript",
+    "description": "A full-featured forum platform with authentication, post creation, voting, commenting, and membership-based post limits."
+  },
+  {
+    "id": 8,
+    "name": "My-Best-Project-Live-Link",
+    "repo": "https://github.com/yousufali156/My-Best-Project-Live-Link",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Repository showcasing all of my best programming projects with live links."
+  },
+  {
+    "id": 9,
+    "name": "Yousuf-Portfolio",
+    "repo": "https://github.com/yousufali156/Yousuf-Portfolio",
+    "live": "https://yousufali156.github.io/Yousuf-Portfolio/",
+    "language": "HTML",
+    "description": "My first personal portfolio website built with HTML and CSS."
+  },
+  {
+    "id": 10,
+    "name": "auto-p-n",
+    "repo": "https://github.com/yousufali156/auto-p-n",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 11,
+    "name": "portfolio-generator",
+    "repo": "https://github.com/yousufali156/portfolio-generator",
+    "live": "https://yousuf-portfolio-generator.netlify.app/",
+    "language": "JavaScript",
+    "description": "PortfoGen is a beautiful, responsive portfolio generator that allows users to create and preview modern personal portfolios using multiple themes."
+  },
+  {
+    "id": 12,
+    "name": "live-weather",
+    "repo": "https://github.com/yousufali156/live-weather",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 13,
+    "name": "Problem-Solving-10",
+    "repo": "https://github.com/yousufali156/Problem-Solving-10",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Collection of JavaScript problem-solving exercises."
+  },
+  {
+    "id": 14,
+    "name": "CourseHub-Client",
+    "repo": "https://github.com/yousufali156/CourseHub-Client",
+    "live": "https://coursehub-7fd47.web.app/",
+    "language": "JavaScript",
+    "description": "🎓 CourseHub – A full-stack course management app with React, Firebase Auth, Node.js, and MongoDB."
+  },
+  {
+    "id": 15,
+    "name": "Next-Js",
+    "repo": "https://github.com/yousufali156/Next-Js",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 16,
+    "name": "DevTalks-Server",
+    "repo": "https://github.com/yousufali156/DevTalks-Server",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Backend server for DevTalks forum platform."
+  },
+  {
+    "id": 17,
+    "name": "p-new",
+    "repo": "https://github.com/yousufali156/p-new",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 18,
+    "name": "DevTalks-Comunitty",
+    "repo": "https://github.com/yousufali156/DevTalks-Comunitty",
+    "live": "",
+    "language": "",
+    "description": "For Developers Forum."
+  },
+  {
+    "id": 19,
+    "name": "yuzan-fast-delivery-server",
+    "repo": "https://github.com/yousufali156/yuzan-fast-delivery-server",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Backend server for Yuzan Fast Delivery."
+  },
+  {
+    "id": 20,
+    "name": "CourseHub-Server",
+    "repo": "https://github.com/yousufali156/CourseHub-Server",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Backend server for CourseHub app."
+  },
+  {
+    "id": 21,
+    "name": "dragon-news",
+    "repo": "https://github.com/yousufali156/dragon-news",
+    "live": "https://dragon-news-y.netlify.app/",
+    "language": "JavaScript",
+    "description": "📰 Dragon News – Modern React News Portal with category filtering and Firebase authentication."
+  },
+  {
+    "id": 22,
+    "name": "Task-Match",
+    "repo": "https://github.com/yousufali156/Task-Match",
+    "live": "https://grapes-market.web.app/",
+    "language": "JavaScript",
+    "description": "Task Match – Freelance marketplace with real-time bid tracking, secure auth, and intuitive design."
+  },
+  {
+    "id": 23,
+    "name": "Task-Match-Server",
+    "repo": "https://github.com/yousufali156/Task-Match-Server",
+    "live": "",
+    "language": "JavaScript",
+    "description": "Backend server for Task Match marketplace."
+  },
+  {
+    "id": 24,
+    "name": "yousufali156-knowledge-cafe",
+    "repo": "https://github.com/yousufali156/yousufali156-knowledge-cafe",
+    "live": "https://yousuf-ali-knowledge-cafe.netlify.app/",
+    "language": "JavaScript",
+    "description": "Knowledge Cafe – Blog reading platform built with React and Tailwind CSS."
+  },
+  {
+    "id": 25,
+    "name": "Dev-Board-Asg-5",
+    "repo": "https://github.com/yousufali156/Dev-Board-Asg-5",
+    "live": "https://dev-board-asg-5.vercel.app/",
+    "language": "HTML",
+    "description": "DevBoard – Responsive task management dashboard for developers."
+  },
+  {
+    "id": 26,
+    "name": "Stylish-Component",
+    "repo": "https://github.com/yousufali156/Stylish-Component",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 27,
+    "name": "career-code",
+    "repo": "https://github.com/yousufali156/career-code",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 28,
+    "name": "career-code-new",
+    "repo": "https://github.com/yousufali156/career-code-new",
+    "live": "",
+    "language": "",
+    "description": ""
+  },
+  {
+    "id": 29,
+    "name": "assignment-01",
+    "repo": "https://github.com/yousufali156/assignment-01",
+    "live": "https://yousufali156.github.io/assignment-01/",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 30,
+    "name": "all-questions-json",
+    "repo": "https://github.com/yousufali156/all-questions-json",
+    "live": "",
+    "language": "",
+    "description": ""
+  },
+  {
+    "id": 31,
+    "name": "Book-Vibe-Boi-Poka",
+    "repo": "https://github.com/yousufali156/Book-Vibe-Boi-Poka",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 32,
+    "name": "Bank-App-Payoo",
+    "repo": "https://github.com/yousufali156/Bank-App-Payoo",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 33,
+    "name": "dev-board-asg-05",
+    "repo": "https://github.com/yousufali156/dev-board-asg-05",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 34,
+    "name": "js-task-solution",
+    "repo": "https://github.com/yousufali156/js-task-solution",
+    "live": "",
+    "language": "JavaScript",
+    "description": ""
+  },
+  {
+    "id": 35,
+    "name": "YOLO-Badge",
+    "repo": "https://github.com/yousufali156/YOLO-Badge",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 36,
+    "name": "comand",
+    "repo": "https://github.com/yousufali156/comand",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 37,
+    "name": "assignment-03-C002",
+    "repo": "https://github.com/yousufali156/assignment-03-C002",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 38,
+    "name": "legal-solution",
+    "repo": "https://github.com/yousufali156/legal-solution",
+    "live": "",
+    "language": "",
+    "description": ""
+  },
+  {
+    "id": 39,
+    "name": "tea-house",
+    "repo": "https://github.com/yousufali156/tea-house",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 40,
+    "name": "assignment-02",
+    "repo": "https://github.com/yousufali156/assignment-02",
+    "live": "",
+    "language": "CSS",
+    "description": ""
+  },
+  {
+    "id": 41,
+    "name": "architect-design",
+    "repo": "https://github.com/yousufali156/architect-design",
+    "live": "",
+    "language": "HTML",
+    "description": ""
+  },
+  {
+    "id": 42,
+    "name": "new-work",
+    "repo": "https://github.com/yousufali156/new-work",
+    "live": "",
+    "language": "",
+    "description": ""
+  },
+  {
+    "id": 43,
+    "name": "my-first-github-repo",
+    "repo": "https://github.com/yousufali156/my-first-github-repo",
+    "live": "",
+    "language": "",
+    "description": ""
+  }
+]

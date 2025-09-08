@@ -5,7 +5,7 @@ import CountUp from "react-countup";
 
 const Repositories = ({ repositoriesPromise }) => {
   const repositoriesData = use(repositoriesPromise) || [];
-  const itemsPerPage = 8; // 2x4 grid
+  const itemsPerPage = 10; // 2x4 grid
   const [currentPage, setCurrentPage] = useState(1);
   const [currentRepos, setCurrentRepos] = useState([]);
 

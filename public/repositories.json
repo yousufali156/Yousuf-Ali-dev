@@ -243,7 +243,7 @@
     "id": 32,
     "name": "Bank-App-Payoo",
     "repo": "https://github.com/yousufali156/Bank-App-Payoo",
-    "live": "",
+    "live": "https://bank-app-payoo.vercel.app/",
     "language": "HTML",
     "description": ""
   },
@@ -283,7 +283,7 @@
     "id": 37,
     "name": "assignment-03-C002",
     "repo": "https://github.com/yousufali156/assignment-03-C002",
-    "live": "",
+    "live": "https://yousufali156.github.io/assignment-03-C002/",
     "language": "HTML",
     "description": ""
   },
@@ -307,7 +307,7 @@
     "id": 40,
     "name": "assignment-02",
     "repo": "https://github.com/yousufali156/assignment-02",
-    "live": "",
+    "live": "https://yousufali156.github.io/assignment-02/",
     "language": "CSS",
     "description": ""
   },
@@ -315,7 +315,7 @@
     "id": 41,
     "name": "architect-design",
     "repo": "https://github.com/yousufali156/architect-design",
-    "live": "",
+    "live": "https://yousufali156.github.io/architect-design/",
     "language": "HTML",
     "description": ""
   },

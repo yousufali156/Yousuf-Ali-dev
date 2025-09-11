@@ -29,8 +29,8 @@ Welcome to my personal projects website, built with **React.js** and styled for 
 ```bash
 ├── public/
 ├── src/
-│   ├── components/     # Reusable components
-│   ├── assets/         # Images, icons, etc.
+│   ├── components/    
+│   ├── assets/         
 │   ├── App.jsx
 │   └── main.jsx
 ├── package.json
@@ -92,5 +92,5 @@ npm run build
 
 ---
 
-> Made with ❤️ using React, Vite, and Tailwind CSS.
+> Made with ❤️ using React, Vite, and Tailwind CSS It's projects base portfoilo.
 # Yousuf-Ali-dev

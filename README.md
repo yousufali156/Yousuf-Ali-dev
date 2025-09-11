@@ -92,5 +92,5 @@ npm run build
 
 ---
 
-> Made with ❤️ using React, Vite, and Tailwind CSS.
+> Made with ❤️ using React, Vite, and Tailwind CSS It's projects base portfoilo.
 # Yousuf-Ali-dev

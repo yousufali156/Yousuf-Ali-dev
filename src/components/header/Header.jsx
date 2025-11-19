@@ -22,11 +22,11 @@ const Header = () => {
       {/* Profile + Info */}
       <Fade>
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 z-10 text-center md:text-left">
-          
+
           {/* Profile Image with glowing animated dotted ring */}
           <AnimatedProfileRing
             src="https://i.ibb.co/wFRM3C9W/Yousuf-Ali-Web-Developer.png"
-            alt="Yousuf Ali"
+            alt="yousufalidev"
           />
 
           {/* Info */}
@@ -43,6 +43,8 @@ const Header = () => {
                   "Learning Next.js",
                   "&",
                   "TypeScript",
+                  "&",
+                  "Laravel",
                 ]}
                 loop={0}
                 cursor

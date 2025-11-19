@@ -49,7 +49,7 @@ const Footer = () => {
               <h2 className="text-2xl md:text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-400">
                 MD. YOUSUF ALI
               </h2>
-              <p className="text-sm md:text-base mt-1 text-gray-400">MERN Stack Front-end Developer</p>
+              <p className="text-sm md:text-base mt-1 text-gray-400">MERN Stack Frontend Web Developer</p>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ const Footer = () => {
 
           {/* Footer Text */}
           <p className="text-gray-400 text-sm sm:text-base">
-            © {new Date().getFullYear()} Md. Yousuf Ali - MERN Developer from Bogura, Bangladesh
+            © {new Date().getFullYear()} Md. Yousuf Ali - MERN Stack Frontend Web Developer from Bogura, Bangladesh
           </p>
         </div>
       </footer>

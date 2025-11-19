@@ -136,22 +136,6 @@
     "description": ""
   },
   {
-    "id": 19,
-    "name": "yuzan-fast-delivery-server",
-    "repo": "https://github.com/yousufali156/yuzan-fast-delivery-server",
-    "live": "",
-    "language": "JavaScript",
-    "description": "Backend server for Yuzan Fast Delivery."
-  },
-  {
-    "id": 20,
-    "name": "CourseHub-Server",
-    "repo": "https://github.com/yousufali156/CourseHub-Server",
-    "live": "",
-    "language": "JavaScript",
-    "description": "Backend server for CourseHub app."
-  },
-  {
     "id": 21,
     "name": "yuzan-fast-delivery-client",
     "repo": "https://github.com/yousufali156/yuzan-fast-delivery-client",
@@ -168,33 +152,9 @@
     "description": "Repository showcasing all of my best programming projects with live links."
   },
   {
-    "id": 23,
-    "name": "Task-Match-Server",
-    "repo": "https://github.com/yousufali156/Task-Match-Server",
-    "live": "",
-    "language": "JavaScript",
-    "description": "Backend server for Task Match marketplace."
-  },
-  {
     "id": 24,
     "name": "auto-p-n",
     "repo": "https://github.com/yousufali156/auto-p-n",
-    "live": "",
-    "language": "JavaScript",
-    "description": ""
-  },
-  {
-    "id": 25,
-    "name": "yousufali156",
-    "repo": "https://github.com/yousufali156/yousufali156",
-    "live": "",
-    "language": "Config",
-    "description": "Config files for my GitHub profile."
-  },
-  {
-    "id": 26,
-    "name": "Stylish-Component",
-    "repo": "https://github.com/yousufali156/Stylish-Component",
     "live": "",
     "language": "JavaScript",
     "description": ""
@@ -207,35 +167,12 @@
     "language": "JavaScript",
     "description": ""
   },
-  {
-    "id": 28,
-    "name": "career-code-new",
-    "repo": "https://github.com/yousufali156/career-code-new",
-    "live": "",
-    "language": "",
-    "description": ""
-  },
-  {
-    "id": 29,
-    "name": "yousufali156",
-    "repo": "https://github.com/yousufali156/yousufali156",
-    "live": "",
-    "language": "Config",
-    "description": "Config files for my GitHub profile."
-  },
-  {
-    "id": 30,
-    "name": "all-questions-json",
-    "repo": "https://github.com/yousufali156/all-questions-json",
-    "live": "",
-    "language": "",
-    "description": ""
-  },
+ 
   {
     "id": 31,
     "name": "Book-Vibe-Boi-Poka",
     "repo": "https://github.com/yousufali156/Book-Vibe-Boi-Poka",
-    "live": "",
+    "live": "https://boi-poka-yousufalidev.vercel.app/",
     "language": "JavaScript",
     "description": ""
   },
@@ -247,92 +184,16 @@
     "language": "HTML",
     "description": ""
   },
-  {
-    "id": 33,
-    "name": "dev-board-asg-05",
-    "repo": "https://github.com/yousufali156/dev-board-asg-05",
-    "live": "",
-    "language": "HTML",
-    "description": ""
-  },
-  {
-    "id": 34,
-    "name": "js-task-solution",
-    "repo": "https://github.com/yousufali156/js-task-solution",
-    "live": "",
-    "language": "JavaScript",
-    "description": ""
-  },
-  {
-    "id": 35,
-    "name": "YOLO-Badge",
-    "repo": "https://github.com/yousufali156/YOLO-Badge",
-    "live": "",
-    "language": "HTML",
-    "description": ""
-  },
-  {
-    "id": 36,
-    "name": "comand",
-    "repo": "https://github.com/yousufali156/comand",
-    "live": "",
-    "language": "HTML",
-    "description": ""
-  },
-  {
-    "id": 37,
-    "name": "p-new",
-    "repo": "https://github.com/yousufali156/p-new",
-    "live": "",
-    "language": "HTML",
-    "description": ""
-  },
-  {
-    "id": 38,
-    "name": "legal-solution",
-    "repo": "https://github.com/yousufali156/legal-solution",
-    "live": "",
-    "language": "",
-    "description": ""
-  },
+ 
+  
   {
     "id": 39,
     "name": "tea-house",
     "repo": "https://github.com/yousufali156/tea-house",
-    "live": "",
+    "live": "https://yousufali156.github.io/tea-house/",
     "language": "HTML",
     "description": ""
   },
-  {
-    "id": 40,
-    "name": "DevTalks-Comunitty",
-    "repo": "https://github.com/yousufali156/DevTalks-Comunitty",
-    "live": "",
-    "language": "",
-    "description": "For Developers Forum."
-  },
-  {
-    "id": 41,
-    "name": "Next-Js",
-    "repo": "https://github.com/yousufali156/Next-Js",
-    "live": "",
-    "language": "JavaScript",
-    "description": ""
-  },
-  {
-    "id": 42,
-    "name": "new-work",
-    "repo": "https://github.com/yousufali156/new-work",
-    "live": "",
-    "language": "",
-    "description": ""
-  },
-  {
-    "id": 43,
-    "name": "my-first-github-repo",
-    "repo": "https://github.com/yousufali156/my-first-github-repo",
-    "live": "",
-    "language": "",
-    "description": ""
-  }
+  
+ 
 ]

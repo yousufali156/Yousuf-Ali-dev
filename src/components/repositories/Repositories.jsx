@@ -23,6 +23,7 @@ const Repositories = ({ repositoriesPromise }) => {
 
   return (
     <section className="bg-black text-white py-16 px-4 relative overflow-hidden">
+      
       {/* Floating shapes */}
       <div className="absolute -top-16 -left-20 w-72 h-72 bg-purple-700/20 rounded-full animate-spin-slow"></div>
       <div className="absolute -bottom-16 -right-20 w-72 h-72 bg-pink-600/20 rounded-full animate-spin-slow"></div>
@@ -39,7 +40,16 @@ const Repositories = ({ repositoriesPromise }) => {
           delaySpeed={2000}
         />{" "}
         <span className="text-pink-500">
-          <CountUp start={0} end={repositoriesData.length} enableScrollSpy duration={3} />
+          <CountUp
+            start={0}
+            end={repositoriesData.length}
+            duration={3}
+            enableScrollSpy
+          >
+            {({ countUpRef }) => (
+              <span ref={countUpRef} />
+            )}
+          </CountUp>
           +
         </span>
       </h2>
@@ -56,11 +66,10 @@ const Repositories = ({ repositoriesPromise }) => {
         <button
           onClick={handlePrev}
           disabled={currentPage === 1}
-          className={`px-5 py-2 rounded-full font-semibold transition-all duration-300 ${
-            currentPage === 1
-              ? "bg-gray-700 text-gray-400 cursor-not-allowed"
-              : "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white hover:scale-105 shadow-lg"
-          }`}
+          className={`px-5 py-2 rounded-full font-semibold transition-all duration-300 ${currentPage === 1
+            ? "bg-gray-700 text-gray-400 cursor-not-allowed"
+            : "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white hover:scale-105 shadow-lg"
+            }`}
         >
           Prev
         </button>
@@ -70,10 +79,9 @@ const Repositories = ({ repositoriesPromise }) => {
             key={page}
             onClick={() => setCurrentPage(page)}
             className={`px-5 py-2 rounded-full font-semibold transition-all duration-300
-              ${
-                currentPage === page
-                  ? "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white shadow-lg scale-110"
-                  : "bg-gray-800 text-gray-300 hover:bg-gradient-to-r hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 hover:text-white"
+              ${currentPage === page
+                ? "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white shadow-lg scale-110"
+                : "bg-gray-800 text-gray-300 hover:bg-gradient-to-r hover:from-pink-500 hover:via-purple-500 hover:to-blue-500 hover:text-white"
               }`}
           >
             {page}
@@ -83,11 +91,10 @@ const Repositories = ({ repositoriesPromise }) => {
         <button
           onClick={handleNext}
           disabled={currentPage === totalPages}
-          className={`px-5 py-2 rounded-full font-semibold transition-all duration-300 ${
-            currentPage === totalPages
-              ? "bg-gray-700 text-gray-400 cursor-not-allowed"
-              : "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white hover:scale-105 shadow-lg"
-          }`}
+          className={`px-5 py-2 rounded-full font-semibold transition-all duration-300 ${currentPage === totalPages
+            ? "bg-gray-700 text-gray-400 cursor-not-allowed"
+            : "bg-gradient-to-r from-purple-500 via-pink-500 to-blue-500 text-white hover:scale-105 shadow-lg"
+            }`}
         >
           Next
         </button>

@@ -53,21 +53,21 @@ const Header = () => {
               />
             </h1>
             <p className="text-md md:text-lg font-semibold text-white/80">
-              MERN Stack Front-end Developer
+              MERN Stack Frontend Developer
             </p>
 
             {/* Social Icons */}
             <div className="flex gap-4 mt-6 text-2xl justify-center md:justify-start">
-              <a href="https://shihab-dev.web.app" target="_blank" title="Portfolio Website">
+              <a href="https://yousufali-portfolio.vercel.app/" target="_blank" title="Portfolio Website">
                 <TbWorldCode className="hover:text-pink-400 transition-colors duration-300" />
               </a>
-              <a href="https://www.linkedin.com/in/yousufali156" target="_blank" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/yousufalidev" target="_blank" title="LinkedIn">
                 <FaLinkedin className="hover:text-blue-500 transition-colors duration-300" />
               </a>
               <a href="https://github.com/yousufali156" target="_blank" title="GitHub">
                 <FaGithubSquare className="hover:text-gray-300 transition-colors duration-300" />
               </a>
-              <a href="https://www.facebook.com/yousufali156" target="_blank" title="Facebook">
+              <a href="https://www.facebook.com/yousufalidev" target="_blank" title="Facebook">
                 <FaFacebookSquare className="hover:text-blue-700 transition-colors duration-300" />
               </a>
             </div>

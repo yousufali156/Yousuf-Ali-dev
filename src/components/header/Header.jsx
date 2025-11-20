@@ -30,12 +30,12 @@ const Header = () => {
           />
 
           {/* Info */}
-          <div className="flex flex-col justify-center gap-2 max-w-lg">
-            <h1 className="text-3xl md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-400 animate-gradient-pan">
+          <div className="flex flex-col justify-center gap-2 max-w-6xl mx-auto">
+            <h1 className="text-3xl  md:text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 via-purple-500 to-blue-400 animate-gradient-pan">
               <Typewriter
                 words={[
-                  "Yousuf Ali",
-                  "MERN Stack",
+                  "Md. Yousuf Ali",
+                  "MERN Stack Developer",
                   "Frontend Developer",
                   "Hard Worker",
                   "Passionate Developer",

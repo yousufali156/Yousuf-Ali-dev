@@ -8,7 +8,7 @@
     "description": "A full-featured forum platform with authentication, post creation, voting, commenting, and membership-based post limits."
   },
   {
-    "id": 3,
+    "id": 2,
     "name": "CourseHub-Client",
     "repo": "https://github.com/yousufali156/CourseHub-Client",
     "live": "https://coursehub-7fd47.web.app/",
@@ -16,7 +16,7 @@
     "description": "🎓 CourseHub – A full-stack course management app with React, Firebase Auth, Node.js, and MongoDB."
   },
   {
-    "id": 5,
+    "id": 3,
     "name": "Task-Match",
     "repo": "https://github.com/yousufali156/Task-Match",
     "live": "https://grapes-market.web.app/",
@@ -29,10 +29,10 @@
     "repo": "https://github.com/yousufali156/Live-Weather-App",
     "live": "https://live-weather-lw.vercel.app/",
     "language": "JavaScript",
-    "description": "A real-time weather dashboard built with React and Tailwind CSS, featuring animated weather icons and dynamic API data."
+    "description": "A real-time weather dashboard built with React and Tailwind CSS."
   },
   {
-    "id": 2,
+    "id": 5,
     "name": "earthen-canvas",
     "repo": "https://github.com/yousufali156/earthen-canvas",
     "live": "https://earthen-canvas-ec.vercel.app/",
@@ -53,7 +53,7 @@
     "repo": "https://github.com/yousufali156/portfolio-generator",
     "live": "https://yousuf-portfolio-generator.netlify.app/",
     "language": "JavaScript",
-    "description": "PortfoGen is a beautiful, responsive portfolio generator that allows users to create and preview modern personal portfolios using multiple themes."
+    "description": "Responsive portfolio generator with multiple themes."
   },
   {
     "id": 8,
@@ -61,42 +61,42 @@
     "repo": "https://github.com/yousufali156/yousufali156-knowledge-cafe",
     "live": "https://yousuf-ali-knowledge-cafe.netlify.app/",
     "language": "JavaScript",
-    "description": "Knowledge Cafe – Blog reading platform built with React and Tailwind CSS."
+    "description": "Knowledge Cafe – Blog reading platform built with React."
   },
   {
-    "id": 11,
+    "id": 9,
     "name": "yousufali-portfolio",
     "repo": "https://github.com/yousufali156/yousufali-portfolio",
     "live": "https://yousufali-portfolio.vercel.app",
     "language": "JavaScript",
-    "description": "A modern and fully responsive personal portfolio showcasing skills, experience, and projects. Built using React, Tailwind CSS, and Framer Motion."
+    "description": "Responsive personal portfolio using React & Tailwind."
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Yousuf-Portfolio",
     "repo": "https://github.com/yousufali156/Yousuf-Portfolio",
     "live": "https://yousufali156.github.io/Yousuf-Portfolio/",
     "language": "HTML",
-    "description": "My first personal portfolio website built with HTML and CSS."
+    "description": "My first personal portfolio using HTML CSS."
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Dev-Board-Asg-5",
     "repo": "https://github.com/yousufali156/Dev-Board-Asg-5",
     "live": "https://dev-board-asg-5.vercel.app/",
     "language": "HTML",
-    "description": "DevBoard – Responsive task management dashboard for developers."
+    "description": "Responsive task management dashboard."
   },
   {
-    "id": 13,
+    "id": 12,
     "name": "Bangladesh-2.0",
     "repo": "https://github.com/yousufali156/Bangladesh-2.0",
     "live": "https://yousufali156.github.io/Bangladesh-2.0/",
     "language": "HTML",
-    "description": "This is my First Portfolio Design with Raw Html & Css"
+    "description": "Portfolio design using raw HTML & CSS."
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "architect-design",
     "repo": "https://github.com/yousufali156/architect-design",
     "live": "https://yousufali156.github.io/architect-design/",
@@ -109,7 +109,7 @@
     "repo": "https://github.com/yousufali156/portfolio",
     "live": "",
     "language": "HTML",
-    "description": "Static portfolio website built with HTML and CSS."
+    "description": "Static portfolio website."
   },
   {
     "id": 15,
@@ -120,7 +120,7 @@
     "description": ""
   },
   {
-    "id": 17,
+    "id": 16,
     "name": "assignment-03-C002",
     "repo": "https://github.com/yousufali156/assignment-03-C002",
     "live": "https://yousufali156.github.io/assignment-03-C002/",
@@ -128,7 +128,7 @@
     "description": ""
   },
   {
-    "id": 18,
+    "id": 17,
     "name": "live-weather",
     "repo": "https://github.com/yousufali156/live-weather",
     "live": "",
@@ -136,7 +136,7 @@
     "description": ""
   },
   {
-    "id": 21,
+    "id": 18,
     "name": "yuzan-fast-delivery-client",
     "repo": "https://github.com/yousufali156/yuzan-fast-delivery-client",
     "live": "",
@@ -144,15 +144,15 @@
     "description": "Frontend client for Yuzan Fast Delivery service."
   },
   {
-    "id": 22,
+    "id": 19,
     "name": "My-Best-Project-Live-Link",
     "repo": "https://github.com/yousufali156/My-Best-Project-Live-Link",
     "live": "",
     "language": "JavaScript",
-    "description": "Repository showcasing all of my best programming projects with live links."
+    "description": "Repository showcasing all of my best projects."
   },
   {
-    "id": 24,
+    "id": 20,
     "name": "auto-p-n",
     "repo": "https://github.com/yousufali156/auto-p-n",
     "live": "",
@@ -160,16 +160,15 @@
     "description": ""
   },
   {
-    "id": 27,
+    "id": 21,
     "name": "career-code",
     "repo": "https://github.com/yousufali156/career-code",
     "live": "",
     "language": "JavaScript",
     "description": ""
   },
- 
   {
-    "id": 31,
+    "id": 22,
     "name": "Book-Vibe-Boi-Poka",
     "repo": "https://github.com/yousufali156/Book-Vibe-Boi-Poka",
     "live": "https://boi-poka-yousufalidev.vercel.app/",
@@ -177,23 +176,19 @@
     "description": ""
   },
   {
-    "id": 32,
+    "id": 23,
     "name": "Bank-App-Payoo",
     "repo": "https://github.com/yousufali156/Bank-App-Payoo",
     "live": "https://bank-app-payoo.vercel.app/",
     "language": "HTML",
     "description": ""
   },
- 
-  
   {
-    "id": 39,
+    "id": 24,
     "name": "tea-house",
     "repo": "https://github.com/yousufali156/tea-house",
     "live": "https://yousufali156.github.io/tea-house/",
     "language": "HTML",
     "description": ""
-  },
-  
- 
+  }
 ]
